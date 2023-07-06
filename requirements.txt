@@ -2,4 +2,5 @@ pandas
 numpy
 seaborn
 sklearn
+dill
 -e .
