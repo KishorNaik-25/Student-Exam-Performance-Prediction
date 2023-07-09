@@ -59,6 +59,7 @@ if __name__ == "__main__":
     train_arr,test_arr,preprocessor_ob_file_path = data_transformation.initiate_data_transformation(train_data, test_data)
 
     modeltrainer = ModelTrainer()
-    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
-
-
+    r2_score, best_model_name = modeltrainer.initiate_model_trainer(train_arr, test_arr)
+    print("R2 Score:", r2_score)
+    print("Best Model:", best_model_name)
+    # print("Best Model Score", best_model_score)
