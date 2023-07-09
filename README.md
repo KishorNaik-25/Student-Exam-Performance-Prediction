@@ -10,4 +10,4 @@ The project's goal is to help students comprehend and foresee how they might far
 
 Student Exam Performance Indicator using (FLASK)
 
-![img.png](img.png)
+![img_1.png](img_1.png)
